@@ -30,10 +30,13 @@ header img:hover {
     padding-left: 30px;
 }
 
+.color_nav {
+    background-color: #CCCCCC;
+}
+
 /* SECCION INICIO */
 .inicio{
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
-    url("img/fondo.jpg");
+    background-color: #202020;
     background-size: cover;
     background-position: center center;
     color: #fff;
@@ -258,6 +261,10 @@ header img:hover {
     .resumen .contenido-seccion .info .col{
         width: 90%;
         margin: auto;
+    }
+
+    .columna2 {
+        padding-left: 0px;
     }
     .resumen .contenido-seccion .info .col .titulo{
         display: block;
